@@ -1,9 +1,11 @@
 :root {
     --primary-color:#f7cdd0;;
     --secondary-color: #f7a1b9;
+    --main-font: "tt ramillas";
 }
 body {
     background-color: var(--primary-color);
+    font: var(--main-font);
 }
 .top-links {
     background-color: var(--secondary-color);
@@ -33,6 +35,7 @@ a {
 }
 a:hover {
     font-size: 30px;
+    color: white;
 }
 .para {
     display: flex;
