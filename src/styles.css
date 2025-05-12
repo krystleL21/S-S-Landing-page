@@ -1,11 +1,26 @@
 :root {
-    --primary-color:#f7cdd0;;
+    --primary-color:#f7cdd0;
     --secondary-color: #f7a1b9;
     --main-font: "tt ramillas";
 }
 body {
     background-color: var(--primary-color);
-    font: var(--main-font);
+    
+}
+#about-body {
+    background-image: url('images/Tammi_web_\ elements\ _About-background_v3.png');
+    background-size: 1010px;
+    background-repeat: no-repeat;
+    margin: 40px;
+    width: 1000px;
+    height: 650px;
+}
+#homepage-body {
+    background-image: url('images/Homepage_background_v4.jpg');
+    background-size: 1050px;
+    text-align:center;
+    background-repeat: no-repeat;
+    margin: 40px;
 }
 .top-links {
     background-color: var(--secondary-color);
@@ -13,17 +28,14 @@ body {
     padding: 5px;
     display: flex;
     justify-content: space-evenly;
-    font-size: 25px;
+    font-size: 15px;
+    font-weight: 500;
     margin-top: 35px;
 
 }
-.order-link {
-    font-size: 25px;
-    border: 1px solid black;
-    border-radius: 25px;
-    padding: 15px;
-    border-inline-width: 30px;
-    border-inline-color: 0.9;
+.position-absolute img {
+  width: 20px;
+  height: 20px;
 }
 .top-style {
     display: flex;
@@ -34,17 +46,68 @@ a {
     color: black;
 }
 a:hover {
-    font-size: 30px;
+    font-size: 40px;
     color: white;
 }
 .para {
     display: flex;
     justify-content:flex-start;
+    font-size: 15px;
 }
 p {
     margin-left: 20px;
     color: white;
 }
-.about-body {
-    background-color: var(--secondary-color);
+.logo {
+    display: flex;
+    justify-content: flex-start;
+    width: 300px;
+    height: 300px;
 }
+.para ul {
+    color: white;
+}
+.para2 {
+    font-size: 20px;
+    text-align:left;
+}
+.container {
+    margin: 100px 0 0 200px;
+    width: 70%;
+    height: 450px;
+    display: flex;
+    Justify-content: center;
+    gap:  10px;
+    }
+    
+    .container img {
+    width: 10%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 2px solid rgba(255, 255, 255,0.684);
+    transition: all ease-in-out 0.5s;
+    }
+    
+    .container img:hover{  
+    width: 25%;
+    }
+    .party-bar {
+        background-color: var(--secondary-color);
+        border-radius: 10px;
+        color: black;
+    }
+    #home-tab2:hover {
+        color:#f7a1b9;
+    }
+    .image-gallary{
+        display: grid;
+        grid-template-columns: 300px 300px 300px 300px;
+        grid-gap: 1px;
+    }
+    .image-gallary img {
+        width: 300px;
+        height: 300px;
+        border-radius: 20px;
+        margin-top: 20px;
+    }
