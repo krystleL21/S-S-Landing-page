@@ -20,7 +20,6 @@ body {
     background-size: 1050px;
     text-align:center;
     background-repeat: no-repeat;
-    margin: 40px;
 }
 .top-links {
     background-color: var(--secondary-color);
@@ -71,27 +70,6 @@ p {
     font-size: 20px;
     text-align:left;
 }
-.container {
-    margin: 100px 0 0 200px;
-    width: 70%;
-    height: 450px;
-    display: flex;
-    Justify-content: center;
-    gap:  10px;
-    }
-    
-    .container img {
-    width: 10%;
-    height: 100%;
-    object-fit: cover;
-    border-radius: 10px;
-    border: 2px solid rgba(255, 255, 255,0.684);
-    transition: all ease-in-out 0.5s;
-    }
-    
-    .container img:hover{  
-    width: 25%;
-    }
     .party-bar {
         background-color: var(--secondary-color);
         border-radius: 10px;
@@ -100,14 +78,22 @@ p {
     #home-tab2:hover {
         color:#f7a1b9;
     }
-    .image-gallary{
+    image-gallary{
         display: grid;
         grid-template-columns: 300px 300px 300px 300px;
-        grid-gap: 1px;
+        grid-gap: 10px;
     }
-    .image-gallary img {
-        width: 300px;
-        height: 300px;
-        border-radius: 20px;
-        margin-top: 20px;
-    }
+  
+.image-gallary img {
+    margin-top: 20px;
+    padding: 20px;
+    max-width: 1000px;
+    max-height: 300px;
+    border-radius: 24px;
+}
+.backc {
+   background-color: var(--secondary-color);
+}
+.radius {
+    border-radius: 50px;
+}
