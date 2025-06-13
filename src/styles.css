@@ -117,7 +117,7 @@ p {
     border-radius: 40px;
     width: 100px;
     height: 250px;
-    border-image: url('/src/images/Tammi\ web\ elements-party-oringinal.svg');
+    
 }
 .mini-glam p {
     color: white;
@@ -129,12 +129,25 @@ color: white;
 font-size: 15px;
 font-weight: bold;
 }
-.card {
-    background-image: url('/src/images/Tammi\ web\ elements-party-oringinal.svg');
-}
 .pack1 {
     text-align: center;
     margin-top: 450px;
     font-family: 'Playfair Display', sans-serif;
     margin-bottom: 40px;
+}
+.con {
+    width:20px;
+    height: 20px;
+background-image: url('/src/images/Tammi\ web\ elements-party-oringinal.svg');
+}
+.home {
+    color:white
+}
+.order-button {
+    display: flex;
+    justify-content:end;
+    width: 500px;
+    height: 500px;
+margin: 0;
+padding: 0;
 }
