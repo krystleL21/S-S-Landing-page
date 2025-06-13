@@ -16,9 +16,9 @@ body {
     height: 650px;
 }
 #homepage-body {
-    background-image: url('images/Homepage_background_v4.jpg');
+    background-image: url('images/Tammi-background-3.svg');
     background-size: 1050px;
-    text-align:center;
+    text-align: center;
     background-repeat: no-repeat;
 }
 .top-links {
@@ -31,6 +31,12 @@ body {
     font-weight: 500;
     margin-top: 35px;
 
+}
+#party-body {
+    background-image: url('/src/images/Tammi\ web\ elements-Top\ pic-party.svg');
+    background-repeat: no-repeat;
+    background-size: 2060px;
+   
 }
 .position-absolute img {
   width: 20px;
@@ -71,7 +77,7 @@ p {
     text-align:left;
 }
     .party-bar {
-        background-color: var(--secondary-color);
+        background-color: var(--primary-color);
         border-radius: 10px;
         color: black;
     }
@@ -96,4 +102,39 @@ p {
 }
 .radius {
     border-radius: 50px;
+}
+.glam-pack {
+    background-color: #ffeaf0;
+    text-align: center;
+    display: block;
+    padding: 50px 50px;
+
+}
+.mini-glam {
+    background-color: #ffeaf0;
+    color: black;
+    text-align: center;
+    border-radius: 40px;
+    width: 100px;
+    height: 250px;
+    border-image: url('/src/images/Tammi\ web\ elements-party-oringinal.svg');
+}
+.mini-glam p {
+    color: white;
+    text-align: left;
+    font-weight: bold;
+}
+.party-bar a:hover {
+color: white;
+font-size: 15px;
+font-weight: bold;
+}
+.card {
+    background-image: url('/src/images/Tammi\ web\ elements-party-oringinal.svg');
+}
+.pack1 {
+    text-align: center;
+    margin-top: 450px;
+    font-family: 'Playfair Display', sans-serif;
+    margin-bottom: 40px;
 }
